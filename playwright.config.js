@@ -19,7 +19,7 @@ const config = {
       timeout: 5000
   },
   /* Run tests in files in parallel */
-  // fullyParallel: true,
+  fullyParallel: true,
  
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
